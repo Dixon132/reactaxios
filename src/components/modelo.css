@@ -1,0 +1,65 @@
+/* Contenedor principal */
+.dogs-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+  background: linear-gradient(145deg, #ffffff, #f3f3f3);
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  max-width: 480px;
+  margin: 40px auto;
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  transition: transform 0.2s ease-in-out;
+}
+
+.dogs-container:hover {
+  transform: translateY(-2px);
+}
+
+/* Título */
+.dogs-title {
+  color: #222;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: -0.5px;
+}
+
+/* Botón */
+.dogs-button {
+  padding: 12px 22px;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(37, 117, 252, 0.25);
+}
+
+.dogs-button:hover {
+  background: linear-gradient(135deg, #5a0eb3, #1d63d8);
+  transform: scale(1.05);
+  box-shadow: 0 6px 14px rgba(37, 117, 252, 0.35);
+}
+
+/* Contenedor de la imagen */
+.dogs-image-container {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+/* Imagen */
+.dogs-image {
+  max-width: 100%;
+  border-radius: 14px;
+  border: 2px solid #e0e0e0;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+  transition: transform 0.4s ease, box-shadow 0.3s
+}
